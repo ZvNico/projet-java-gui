@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>shape</OriginalElement>
+  <nodes>
+    <node x="59.44337606837598" y="0.0">shape.Point</node>
+    <node x="129.93696581196573" y="380.5">shape.Polygon</node>
+    <node x="0.0" y="525.0">shape.ShapeHashSet</node>
+    <node x="357.9369658119657" y="368.0">shape.Ellipse</node>
+    <node x="510.9369658119657" y="380.5">shape.Drawing</node>
+    <node x="0.0" y="184.0">shape.Circle</node>
+    <node x="145.0" y="184.0">shape.Line</node>
+    <node x="531.2147435897435" y="39.5">shape.Shape</node>
+    <node x="517.4369658119657" y="196.5">shape.Picture</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="shape.Drawing" target="shape.Picture" relationship="DEPENDENCY">
+      <point x="54.5" y="-43.5" />
+      <point x="674.4369658119657" y="347.0" />
+      <point x="671.1869658119657" y="347.0" />
+      <point x="51.25" y="43.5" />
+    </edge>
+    <edge source="shape.Polygon" target="shape.Shape" relationship="REALIZATION">
+      <point x="1.4210854715202004E-14" y="-43.5" />
+      <point x="233.93696581196576" y="327.0" />
+      <point x="312.5" y="327.0" />
+      <point x="312.5" y="143.0" />
+      <point x="232.39529914529905" y="143.0" />
+      <point x="232.39529914529905" y="133.0" />
+      <point x="547.7147435897435" y="133.0" />
+      <point x="-33.0" y="16.5" />
+    </edge>
+    <edge source="shape.Ellipse" target="shape.Line" relationship="DEPENDENCY">
+      <point x="-44.33333333333334" y="-56.0" />
+      <point x="380.1036324786324" y="347.0" />
+      <point x="184.25" y="347.0" />
+      <point x="-39.25" y="56.0" />
+    </edge>
+    <edge source="shape.Line" target="shape.Point" relationship="DEPENDENCY">
+      <point x="0.0" y="-56.0" />
+      <point x="223.5" y="153.0" />
+      <point x="129.94337606837598" y="153.0" />
+      <point x="129.94337606837598" y="133.0" />
+      <point x="157.69337606837598" y="133.0" />
+      <point x="32.75" y="56.0" />
+    </edge>
+    <edge source="shape.Circle" target="shape.Point" relationship="DEPENDENCY">
+      <point x="0.0" y="-56.0" />
+      <point x="62.5" y="153.0" />
+      <point x="129.94337606837598" y="153.0" />
+      <point x="129.94337606837598" y="133.0" />
+      <point x="157.69337606837598" y="133.0" />
+      <point x="32.75" y="56.0" />
+    </edge>
+    <edge source="shape.Line" target="shape.Shape" relationship="REALIZATION">
+      <point x="52.333333333333314" y="-56.0" />
+      <point x="275.8333333333333" y="143.0" />
+      <point x="232.39529914529905" y="143.0" />
+      <point x="232.39529914529905" y="133.0" />
+      <point x="547.7147435897435" y="133.0" />
+      <point x="-33.0" y="16.5" />
+    </edge>
+    <edge source="shape.Ellipse" target="shape.Line" relationship="TO_ONE">
+      <point x="0.0" y="-56.0" />
+      <point x="424.4369658119657" y="337.0" />
+      <point x="341.1730769230769" y="337.0" />
+      <point x="341.1730769230769" y="317.0" />
+      <point x="262.75" y="317.0" />
+      <point x="39.25" y="56.0" />
+    </edge>
+    <edge source="shape.Drawing" target="shape.Picture" relationship="TO_MANY">
+      <point x="-54.5" y="-43.5" />
+      <point x="565.4369658119657" y="347.0" />
+      <point x="568.6869658119657" y="347.0" />
+      <point x="-51.25" y="43.5" />
+    </edge>
+    <edge source="shape.Picture" target="shape.Shape" relationship="TO_MANY">
+      <point x="-51.25" y="-43.5" />
+      <point x="568.6869658119657" y="163.0" />
+      <point x="580.7147435897435" y="163.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="shape.Line" target="shape.Point" relationship="TO_ONE">
+      <point x="-52.33333333333337" y="-56.0" />
+      <point x="171.16666666666663" y="163.0" />
+      <point x="119.94337606837598" y="163.0" />
+      <point x="119.94337606837598" y="133.0" />
+      <point x="92.19337606837598" y="133.0" />
+      <point x="-32.75" y="56.0" />
+    </edge>
+    <edge source="shape.Circle" target="shape.Shape" relationship="REALIZATION">
+      <point x="41.66666666666663" y="-56.0" />
+      <point x="104.16666666666663" y="143.0" />
+      <point x="232.39529914529905" y="143.0" />
+      <point x="232.39529914529905" y="133.0" />
+      <point x="547.7147435897435" y="133.0" />
+      <point x="-33.0" y="16.5" />
+    </edge>
+    <edge source="shape.Ellipse" target="shape.Shape" relationship="REALIZATION">
+      <point x="44.333333333333314" y="-56.0" />
+      <point x="468.7702991452991" y="347.0" />
+      <point x="434.4369658119657" y="347.0" />
+      <point x="434.4369658119657" y="143.0" />
+      <point x="232.39529914529905" y="143.0" />
+      <point x="232.39529914529905" y="133.0" />
+      <point x="547.7147435897435" y="133.0" />
+      <point x="-33.0" y="16.5" />
+    </edge>
+    <edge source="shape.Picture" target="shape.Shape" relationship="DEPENDENCY">
+      <point x="51.25" y="-43.5" />
+      <point x="671.1869658119657" y="163.0" />
+      <point x="613.7147435897435" y="163.0" />
+      <point x="33.0" y="16.5" />
+    </edge>
+    <edge source="shape.Circle" target="shape.Point" relationship="TO_ONE">
+      <point x="-41.66666666666663" y="-56.0" />
+      <point x="20.83333333333337" y="163.0" />
+      <point x="119.94337606837598" y="163.0" />
+      <point x="119.94337606837598" y="133.0" />
+      <point x="92.19337606837598" y="133.0" />
+      <point x="-32.75" y="56.0" />
+    </edge>
+    <edge source="shape.Polygon" target="shape.Line" relationship="TO_MANY">
+      <point x="69.33333333333331" y="-43.5" />
+      <point x="303.2702991452991" y="337.0" />
+      <point x="341.1730769230769" y="337.0" />
+      <point x="341.1730769230769" y="317.0" />
+      <point x="262.75" y="317.0" />
+      <point x="39.25" y="56.0" />
+    </edge>
+    <edge source="shape.Polygon" target="shape.Line" relationship="DEPENDENCY">
+      <point x="-69.33333333333331" y="-43.5" />
+      <point x="164.60363247863242" y="347.0" />
+      <point x="184.25" y="347.0" />
+      <point x="-39.25" y="56.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5198019801980198" showDependencies="true" x="364.5" y="293.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
